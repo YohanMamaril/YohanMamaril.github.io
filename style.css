@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff0055;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff0055;
+}
+
+/* Home Section */
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: left;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+}
+
+.intro h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.highlight {
+  color: #ff0055;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/* Social Buttons */
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.facebook {
+  background: #1877f2;
+}
+
+.email {
+  background: #ff9900;
+}
+
+.tiktok {
+  background: #000000;
+}
+
+.youtube {
+  background: #ff0000;
+}
+
+.facebook:hover {
+  background: #1558c1;
+}
+
+.email:hover {
+  background: #cc7a00;
+}
+
+.tiktok:hover {
+  background: #333333;
+}
+
+.youtube:hover {
+  background: #cc0000;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #ff0055;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  padding: 10px;
+}
