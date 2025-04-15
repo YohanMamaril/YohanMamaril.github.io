@@ -1,62 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yohan R. Mamaril - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yohan R. Mamaril | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }body {
+  background-color: #5A3A1E;
+  color: #F2E3D5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  background-color: #EBDDCB;
+  padding: 2rem;
+  border-radius: 50% 50% 0 0;
+  width: 250px;
+  margin-bottom: 1.5rem;
+}
+
+.logo h2 {
+  color: #5A3A1E;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.headline {
+  background-color: #EBDDCB;
+  padding: 1.5rem;
+  max-width: 600px;
+  border-radius: 6px;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  color: #3A2615;
+  font-weight: 900;
+}
+
+.subtext {
+  margin-top: 1.2rem;
+  font-size: 1rem;
+  color: #E4BFA5;
+}
+
+.button {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #EBDDCB;
+  color: #3A2615;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.link {
+  margin-top: 1rem;
+  color: #D7A98C;
+  font-size: 0.9rem;
+}
+
+  </style>
 </head>
 <body>
-    <nav>
-        <div class="logo">Y</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#achievements">Achievements</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section id="home">
-        <div class="intro">
-            <h1>Hi, I'm <span class="highlight">Yohan</span>,<br> a Frontend Developer</h1>
-            <p>Passionate about technology, research, and leadership.</p>
-            <a href="#about" class="btn">Explore</a>
-        </div>
-    </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a 1st-year STE student passionate about software development and research.</p>
-    </section>
-
-    <section id="achievements">
-        <h2>Achievements</h2>
-        <ul>
-            <li>Disproved the K-12 curriculum in research</li>
-            <li>HALILIANS Science Club Grade 7 Representative</li>
-            <li>Class Escort</li>
-            <li>2nd Place - United Nations School-Based Competition</li>
-            <li>Coached 5 students in BagbaguinES for campus journalism</li>
-            <li>Created a website for Latina Partylist, a SSLG partylist</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class="social-buttons">
-            <a href="https://facebook.com/YOUR_PROFILE" class="btn facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
-            <a href="mailto:yohan@example.com" class="btn email"><i class="fas fa-envelope"></i></a>
-            <a href="https://tiktok.com/@YOUR_PROFILE" class="btn tiktok" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
-            <a href="https://youtube.com/@YOUR_CHANNEL" class="btn youtube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
-        </div>
-    </section>
-
-    <footer>
-        <p>© 2025 Yohan R. Mamaril. All Rights Reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <div class="logo">
+    <h2>YOHAN R. MAMARIL</h2>
+  </div>
+  <div class="headline">
+    <h1>Take your Vision to the Next Level</h1>
+  </div>
+  <p class="subtext">I help ideas grow through websites, designs, and creativity.</p>
+  <a href="#about" class="button">LEARN MORE ABOUT ME</a>
+  <p class="link">yohanmamaril.github.io</p>  <!-- About Section -->  <section id="about" style="margin-top: 4rem; max-width: 700px;">
+    <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem;">About Me</h2>
+    <p style="color: #F2E3D5; font-size: 1rem; line-height: 1.6;">
+      I’m Yohan R. Mamaril — a passionate student, developer, and creator. I build websites and digital solutions to help others achieve their goals. Whether you're an individual, a brand, or a startup, I'm here to turn your vision into reality.
+    </p>
+  </section>
 </body>
 </html>
